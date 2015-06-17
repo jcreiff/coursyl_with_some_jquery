@@ -29,13 +29,14 @@ function hideDeletedElement() {
 
 function hideAddElement() {
   var container = $('.association.container');
-  last = container.children().last();
-  last.prop("hidden", "true")
+  var last = container.children().last();
+  last.prop("hidden", "true");
 }
 
 function showAddElement() {
-  lastLink = document.getElementById('last-button');
-  lastLink.parentElement.parentElement.hidden = false;
+  var container = $('.association.container');
+  var last = container.children().last();
+  last.show()
 }
 
 function smoothScroll() {
