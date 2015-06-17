@@ -47,5 +47,9 @@ function smoothScroll() {
   });
 }
 
+function showModal() {
+  $('#myModal').modal('show');
+}
+
 $(smoothScroll);
 $(hideAddElement)
