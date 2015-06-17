@@ -28,8 +28,9 @@ function hideDeletedElement() {
 }
 
 function hideAddElement() {
-  lastLink = document.getElementById('last-button');
-  lastLink.parentElement.parentElement.hidden = true;
+  var container = $('.association.container');
+  last = container.children().last();
+  last.prop("hidden", "true")
 }
 
 function showAddElement() {
@@ -46,3 +47,4 @@ function smoothScroll() {
 }
 
 $(smoothScroll);
+$(hideAddElement)
