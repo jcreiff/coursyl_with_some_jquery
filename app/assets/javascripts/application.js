@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+//= require datetimepicker
 
 function onlyOnce() {
   var button = $(event.target);
@@ -51,5 +52,11 @@ function showModal() {
   $('#myModal').modal('show');
 }
 
+function editDateTime() {
+  $('.edit-date-time').datetimepicker();
+}
+
+
+$(editDateTime);
 $(smoothScroll);
-$(hideAddElement)
+$(hideAddElement);

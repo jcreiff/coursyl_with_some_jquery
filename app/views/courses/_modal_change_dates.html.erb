@@ -7,11 +7,11 @@
     <div class="modal-body">
       <div>
         <span class="field-label"><%= f.label :active_at, "Active at" %></span>
-        <div class="input-prepend"><%= f.date_field :active_at %></div>
+        <div class="edit-date-time"><%= f.text_field :active_at %></div>
       </div>
       <div>
         <span class="field-label"><%= f.label :due_at, "Due at" %></span>
-        <div class="input-prepend"><%= f.date_field :due_at %></div>
+        <div class="edit-date-time"><%= f.text_field :due_at %></div>
       </div>
     </div>
     <div class="modal-footer">

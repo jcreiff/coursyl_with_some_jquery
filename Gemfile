@@ -31,6 +31,10 @@ gem 'font-awesome-rails'
 
 gem 'devise'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-datetimepicker'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
