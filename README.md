@@ -1,5 +1,6 @@
 Coursyl
 =======
+######*Assignment from Week 7 of The Iron Yard's Ruby on Rails course (Durham) -- this is a fork of an app that our instructor built, and the assignment was to implement jQuery functions on a few of the pages*
 
 Coursyl is a Rails app originally developed to manage <b>cour</b>se <b>syl</b>labi.  Over time, it expanded to include:
 
